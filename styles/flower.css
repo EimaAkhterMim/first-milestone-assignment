@@ -172,3 +172,21 @@
     justify-content: space-around;
     margin-bottom: 128px;
 }
+.input{
+    height: 450px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding: 125px 300px;
+}
+.email{
+    width: 700px;
+    height: 64px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.input-info{
+    margin-top: 50px;
+}

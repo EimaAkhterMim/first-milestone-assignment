@@ -10,7 +10,7 @@
 
 /* Banner section styles */
 .first-section {
-    
+
 
     display: flex;
     justify-content: space-between;
@@ -25,13 +25,15 @@
     width: 600px;
     height: 800px;
 }
-.section-title{
+
+.section-title {
     width: 700px;
     color: black;
-    font-size: 50px;
-    font-weight: 600;   
+    font-size: 80px;
+    font-weight: 800;
 }
-.section-description{
+
+.section-description {
     width: 600px;
     color: rgb(97, 94, 94);
     font-size: 18px;
@@ -39,10 +41,111 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 20px 40px;
     border-radius: 10px;
     background-color: rgb(226, 14, 113);
-    border:none;
+    border: none;
     color: white;
+}
+
+/* main section styles */
+
+.featured-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 170px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.featured {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(148, 143, 143);
+}
+
+.featured-flower-pic {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.featured-img {
+    width: 310px;
+    height: 430px;
+    padding: 110px 50px 50px 60px;
+
+}
+
+.flower-div {
+    width: 465px;
+    height: 540px;
+    border-radius: 300px 300px 0px 0px;
+    margin-top: 50px;
+    gap: 25px;
+
+}
+
+.pic1 {
+    background-color: rgb(231, 179, 186);
+}
+
+.pic3 {
+    background-color: lightseagreen
+}
+.tree{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+.pic2 {
+    background-color: rgb(150, 216, 216);
+
+}
+
+
+/* This is 4th section styles */
+
+.hot-deals{
+    display: flex;
+    justify-content:space-around;
+    height: 630px;
+    align-items: center;
+    background-color: rgb(248, 204, 211);
+    margin-top: 250px;
+    padding: 100px 200px;
+}
+
+.deals-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 10px;
+   
+}
+.red{
+    color:rgb(221, 16, 16)
+}
+
+.deals-text{
+    display: block;
+}
+.deals-img{
+    width: 320px;
+    height: 420px;
+}
+#sign{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 220px;
+  
+
 }

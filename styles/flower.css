@@ -158,7 +158,7 @@
     text-align: center;
 }
 .instragram{
-    margin: 100px 200px;
+    margin: 100px 200px 0px 200px;
 }
 .img1{
     width: 320px;
@@ -177,7 +177,7 @@
     background-image: url("../images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-position: cover;
-    padding: 125px 300px;
+    padding: 125px  300px 0px 300px;
 }
 .email{
     width: 700px;
@@ -189,4 +189,37 @@
 }
 .input-info{
     margin-top: 50px;
+}
+
+
+/* This section is footer */
+
+.footer-text{
+    height: 350px;
+    background-color: black;
+    padding: 300px 200px;
+    margin-top: 0px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    
+
+}
+.white{
+    color: white;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    width: 625px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 430px;
+    margin-top: 30px;
+
+}
+.secondp{
+    color: gray;
 }

@@ -99,13 +99,15 @@
 .pic3 {
     background-color: lightseagreen
 }
-.tree{
+
+.tree {
     color: black;
     text-align: center;
     font-size: 25px;
     font-weight: 700px;
     text-decoration: underline;
 }
+
 .pic2 {
     background-color: rgb(150, 216, 216);
 
@@ -114,9 +116,9 @@
 
 /* This is 4th section styles */
 
-.hot-deals{
+.hot-deals {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 630px;
     align-items: center;
     background-color: rgb(248, 204, 211);
@@ -124,28 +126,49 @@
     padding: 100px 200px;
 }
 
-.deals-title{
+.deals-title {
     font-size: 40px;
     font-weight: 800;
     color: black;
     margin-bottom: 10px;
-   
-}
-.red{
-    color:rgb(221, 16, 16)
+
 }
 
-.deals-text{
+.red {
+    color: rgb(221, 16, 16)
+}
+
+.deals-text {
     display: block;
 }
-.deals-img{
+
+.deals-img {
     width: 320px;
     height: 420px;
 }
-#sign{
-    margin-top: 20px;
-    text-align: center;
-    margin-left: 220px;
-  
 
+#sign {
+    margin-top: 20px;
+ 
+    margin-left: 220px;
+}
+
+/* This is 5th section styles */
+.insta{
+    text-align: center;
+}
+.instragram{
+    margin: 100px 200px;
+}
+.img1{
+    width: 320px;
+    height: 350px;
+    gap: 25px;
+    
+}
+.insta-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
 }
